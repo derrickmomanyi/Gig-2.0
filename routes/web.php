@@ -24,3 +24,19 @@ Route::get('/login', function() {
 Route::get('/register', function() {
     return view('pages.register');
 });
+
+Route::get('/checkout', function () {
+    return view('pages.checkout');
+});
+
+Route::get('/booth', function () {
+    return view('pages.select');
+});
+
+Route::get('/select-booth', function () {
+    return view('pages.selectbooth');
+});
+
+Route::get('/payment', function () {
+    return view('pages.payment');
+});
